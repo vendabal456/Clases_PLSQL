@@ -1,0 +1,15 @@
+cd desktop
+
+cd proyectos_oracle
+
+cd PL_SQL
+
+git init
+
+git remote add origin https://github.com/vendabal456/Clases_PLSQL.git
+
+git add .
+
+git commit -m "empezando el repositorio"
+
+git push origin master
