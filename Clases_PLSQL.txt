@@ -1,1 +1,11 @@
 INICIANDO CLASE
+
+DECLARE
+  l_mensaje VARCHAR2(100) := '¡Hola Mundo!';
+BEGIN
+  DBMS_OUTPUT.put_line(l_mensaje);
+EXCEPTION
+  WHEN OTHERS
+    THEN
+      DBMS_OUTPUT.put_line(SQLERRM);
+END;
