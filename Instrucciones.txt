@@ -13,3 +13,6 @@ git add .
 git commit -m "empezando el repositorio"
 
 git push origin master
+
+git config --global user.name "abraham"
+git config --global user.email vendabal456@gmail.com
